@@ -1,0 +1,8 @@
+#!name=文件管理器订阅模块
+#!desc=文件管理器内购收据本地重写，解锁高级订阅。需要开启 HTTPS 解密 (MitM) 并完全信任 ://apple.com 证书。
+#!author=彭于晏
+#!homepage=https://yfamily.app
+
+[Script]
+文件管理器解锁 = type=http-response,pattern=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wjglq.js
+
