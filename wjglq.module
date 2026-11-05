@@ -6,3 +6,7 @@
 [Script]
 文件管理器解锁 = type=http-response,pattern=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wjglq.js
 
+[MITM]
+
+hostname = %APPEND% ://apple.com
+
